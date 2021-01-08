@@ -1,11 +1,11 @@
 {
-  "name": "yellowcake",
-  "HomePage": "https://yellowcake.netlify.com/",
+  "name": "gatsby-playground",
+  "HomePage": "https://ktmeaton.github.io/gatsby-playground/",
   "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thriveweb/yellowcake"
+    "url": "https://github.com/ktmeaton/gatsby-playground"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
@@ -58,10 +58,12 @@
     "clean": "del-cli .cache public",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "del-cli": "^3.0.0",
+    "gh-pages": "^3.1.0",
     "prettier": "^1.18.2"
   }
 }
