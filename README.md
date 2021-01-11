@@ -50,3 +50,12 @@ A gatsby site playground.
 1. Build command: ```gatsby build --prefix-paths```
 1. Publish directory: ```public```
 1. Change site name to: https://ktmeaton-gatsby-playground.netlify.app
+
+### Netlify CMS
+
+#### Local
+
+```
+npx netlify-cms-proxy-server
+```
+

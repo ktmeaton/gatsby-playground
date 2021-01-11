@@ -7,6 +7,7 @@ backend:
 # local_backend: true
 
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
+media_folder: static/images
 media_library:
   name: uploadcare
   config:
@@ -21,6 +22,7 @@ media_library:
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
     label: 'Page'
+    folder: 'content/pages'
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: true

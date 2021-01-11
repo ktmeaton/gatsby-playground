@@ -6,7 +6,7 @@ featuredImage: "./images/uploads/ssgb5_stab.png"
 subtitle: "해동검도"
 meta:
   description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  title: Gatsby Playground
 ---
 
 Katherine Eaton's website for Haidong Gumdo (해동검도).
