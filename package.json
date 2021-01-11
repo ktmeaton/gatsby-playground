@@ -1,7 +1,7 @@
 {
   "name": "gatsby-playground",
   "HomePage": "https://ktmeaton.github.io/gatsby-playground/",
-  "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
+  "description": "Katherine Eaton's website for Haidong Gumdo (해동검도).",
   "version": "2.0.0",
   "repository": {
     "type": "git",
